@@ -1,0 +1,72 @@
+.container a{
+     font-family: "Mozilla Headline", sans-serif;
+color: 914F1E;
+}
+nav{
+    background-color: EAD7BB;
+}
+.Home {
+    background-color: F8F4E1;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.logo{
+    transition-duration: 1s;
+}
+.logo:hover{
+    transform: rotate(45deg);
+}
+.item img{
+    animation-name: coffe;
+    animation-duration: 2s;
+    animation-iteration-count:infinite ;
+ 
+}
+body{
+     background-color: F8F4E1;
+}
+@keyframes coffe{
+0%{
+    transform: scale(1);
+}
+50%{
+    transform: scale(1.2);
+}
+100%{
+    transform: scale(1);
+}
+
+}
+h1{
+    font-family: "Mozilla Headline", sans-serif;
+color: 3F2305;
+}
+ h4{
+    font-family: "Josefin Sans", sans-serif;
+    color: 3F2305;
+   
+}
+.Home p{
+    font-family: "Josefin Sans", sans-serif;
+font-style: italic;
+color: 3F2305;
+}
+.btn-brown{
+background-color: AF8F6F;
+color: aliceblue;
+}
+.btn-brown:hover{
+background-color: 74512D;
+color: aliceblue;
+}
+span{
+    color: 74512D;
+}
+.carousel-item img{
+    width: 100px;
+    transform: translateY(50%);
+}
+.end{
+    background-color: 543310;
+}
